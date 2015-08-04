@@ -1,0 +1,13 @@
+Für c++ regex müssen \ durch \\ escaped werden.2
+
+Vorname: ^[:alpha:]+(?:[-][:alpha:]+)?$
+Nachname: ^(?:[:alpha:])+$
+Straße: ^[:alpha:]+(?:[-\ ]?[:alpha:])*[\.]?$
+Nummer: ^(?:\d{1,3})[a-z]?$
+Postleitzahl: ^\d{5}$
+Ort: ^[:alpha:]+(?:[-\ ]?[:alpha:])*[\.]?$
+
+Erweiterung
+Nachname: ^[:alpha:]+(?:[-][:alpha:]+)?$
+Vornamen: ^[:alpha:]+(?:[-\ ]?[:alpha:])*[\.]?$
+Adresszusatz: ^[:alpha:]+(?:[-\ ]?[:alpha:])*[\.]?(?:\nc/o\ (?:[:alpha:]+(?:(?:-|\ |\ & )?[:alpha:])*))?$

@@ -1,0 +1,10 @@
+Max, Mustermann, Musterstr., 2a, 12345, Berlin
+Mark-Dieter, Kling, Paul-Heise-Weg, 5, 15711, Königs Wusterhausen
+Ines, Richter, Am Ufer, 129, 74172, Neckarsulm
+
+
+Vorname: ([a-zA-Z]+[\-]?)
+Nachname: ([a-zA-Z]+[\-\ ]?)
+Straße: ([a-zA-Z]+[\-\ ]?(?:\.$)?)
+Nummer: (^(?:[0-9]{1,3})[a-z]?$)
+Postleitzahl: (^(?:[0-9]{5})$)
